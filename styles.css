@@ -1,0 +1,81 @@
+.divs {
+  border-radius: 5px;
+  background: rgb(0, 0, 0);
+  align-items: center;
+  padding: 0.05px;
+}
+
+.divSecondary {
+  border-radius: 15px;
+  align-items: center;
+  padding: 10px;
+  text-align: center;
+}
+
+.cards {
+  background: black;
+  box-sizing: border-box;
+  display: inline-block;
+  width: 500px;
+  height: 30%;
+  margin: 10px;
+  border: 1px;
+  padding: 10px;
+  border-radius: 15px;
+}
+
+.titles {
+  color: white;
+  font-family: Arial;
+}
+
+.paragraphs {
+  color: white;
+  font-family: Arial;
+  max-block-size: 50px;
+  text-align: justify;
+}
+
+.images {
+  max-width: 500px;
+  max-height: 300px;
+  padding: 10px;
+  border-radius: 30px;
+}
+
+.images:hover {
+  filter: sepia(60%);
+}
+
+a {
+  font-family: arial;
+  font-variant: initial;
+  color: white;
+  text-decoration: none;
+}
+
+.a:hover {
+  background-color: aqua;
+}
+
+body {
+  align-items: center;
+}
+
+.nav {
+  float: none;
+  align-items: start;
+}
+
+li {
+  display: inline-block;
+  margin-left: 20px;
+  text-decoration: none;
+}
+
+.footer {
+  background-color: black;
+  color: white;
+  font-family: Arial;
+  text-align: center;
+}
