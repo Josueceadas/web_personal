@@ -24,6 +24,15 @@
   border-radius: 15px;
 }
 
+.altCards {
+  font-family: arial;
+  border-color: rgb(0, 0, 0);
+  margin: 10px;
+  border: 2px solid;
+  padding: 10px;
+  border-radius: 15px;
+}
+
 .titles {
   color: white;
   font-family: Arial;
@@ -34,6 +43,8 @@
   font-family: Arial;
   max-block-size: 50px;
   text-align: justify;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 .images {
@@ -78,4 +89,44 @@ li {
   color: white;
   font-family: Arial;
   text-align: center;
+  padding: 2%;
+}
+
+/* Media queries */
+
+@media only screen and (max-width: 600px) {
+  header,
+  #info-personal,
+  #habilidades {
+    padding: 10px;
+  }
+  h1,
+  h2 {
+    font-size: 18px;
+  }
+}
+/* Estilos para pantallas medianas (tabletas) */
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+  header,
+  #info-personal,
+  #habilidades {
+    padding: 20px;
+  }
+
+  h1,
+  h2 {
+    font-size: 22px;
+  }
+}
+
+@media only screen and (min-width: 1025px) {
+  header,
+  #info-personal,
+  #habilidades {
+    padding: 30px;
+  }
+  h1,
+  h2 {
+    font-size: 28px;
+  }
 }
