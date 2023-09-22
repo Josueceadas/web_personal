@@ -92,6 +92,42 @@ li {
   padding: 2%;
 }
 
+.form {
+  margin-top: 2%;
+  padding: 2%;
+  text-align: center;
+  margin-left: 30%;
+  margin-right: 30%;
+  border: 2px solid;
+  border-radius: 15px;
+  background-color: black;
+}
+
+.button {
+  background-color: rgb(8, 102, 114);
+  font-family: Arial;
+  border: 1 solid;
+  border-radius: 4px;
+  color: white;
+}
+
+.input {
+  text-align: center;
+  border: 1 solid;
+  border-radius: 4px;
+}
+
+.label {
+  font-family: Arial;
+  color: white;
+}
+
+
+
+.h2{
+  font-family: Arial;
+  color:white;
+}
 /* Media queries */
 
 @media only screen and (max-width: 600px) {

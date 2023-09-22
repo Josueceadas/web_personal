@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="styles.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lista de tareas</title>
+  </head>
+  <body>
+    <div class="divs">
+      <nav>
+        <ul>
+          <li>
+            <a href="index.html"><h1>Josué Demaría</h1></a>
+          </li>
+          <li>
+            <a href="intereses.html"><h1>Intereses</h1></a>
+          </li>
+          <li>
+            <a href="https://github.com/Josueceadas" target="_blank"
+              ><h1>Repositorio</h1></a
+            >
+          </li>
+          <li>
+            <a href="acercaDe.html"><h1>Acerca de...</h1></a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+
+    <form action="" class="form" title="Lista de tareas">
+      <h2 class="h2">Lista de Tareas</h2>
+      <br />
+      <input
+        type="text"
+        id="nuevaTarea"
+        placeholder="Ingrese una nueva tarea"
+      />
+      <button onclick="agregarTarea()">Agregar</button>
+
+      <script src="script.js"></script>
+    </form>
+    <ul id="listaTareas"></ul>
+    <script src="script.js"></script>
+
+  </body>
+</html>
